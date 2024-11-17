@@ -56,7 +56,7 @@
   .texto h2 {
     color: #247BA0;
     margin-bottom: 20px;
-    text-align: center;
+
   }
   
   .texto p {
@@ -77,3 +77,47 @@
   footer p {
     font-size: 16px;
   }
+  /* Enlaces estilo */
+
+a {
+  text-decoration: none; /* Quitar subrayado */
+  color: #247BA0; /* Color inicial */
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s; /* Transiciones suaves */
+}
+
+a:hover {
+  color: #fff; /* Cambia el color del texto */
+  background-color: #247BA0; /* Fondo azul */
+  padding: 5px; /* Espaciado interno para el efecto */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Contenedor de nombres */
+.enlace-contenedor {
+  margin-bottom: 20px; /* Espaciado entre bloques */
+}
+
+.enlace-contenedor a {
+  display: inline-block; /* Permite contenedor clickeable */
+  padding: 5px 10px; /* Espaciado interno */
+  border: 2px solid #247BA0; /* Borde inicial */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.enlace-contenedor a:hover {
+  border-color: #fff; /* Cambiar color del borde al pasar */
+  background-color: #247BA0; /* Fondo azul */
+  color: #fff; /* Texto blanco */
+}
+
+
+h3 {
+  color: #045476; /* Color diferente */
+  font-size: 24px; /* Tamaño más pequeño que h2 */
+  margin-bottom: 15px; /* Espaciado inferior */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  text-align: center; /* Centrar el texto */
+  border-bottom: 2px solid #247BA0; /* Línea decorativa debajo */
+  padding-bottom: 5px; /* Espaciado interno inferior */
+}
